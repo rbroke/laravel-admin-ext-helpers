@@ -1,0 +1,16 @@
+{
+    "name": "dm-extend-laravel-admin",
+    "type": "library",
+    "description": "make me faster than laravel-admin",
+    "keywords": ["relevant","tags","go","here"],
+    "homepage": "https://secret.co",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RBROKE",
+            "email": "ggininder@gg.gg",
+            "homepage": "http://secret.co",
+            "role": "Developer"
+        }
+    ],
+}
