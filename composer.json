@@ -1,16 +1,25 @@
 {
-    "name": "dm-extend-laravel-admin",
+    "name": "dm/laravel-admin-ext-helpers",
+    "description": "wanted faster",
     "type": "library",
-    "description": "make me faster than laravel-admin",
-    "keywords": ["relevant","tags","go","here"],
-    "homepage": "https://secret.co",
     "license": "MIT",
     "authors": [
         {
-            "name": "RBROKE",
-            "email": "ggininder@gg.gg",
-            "homepage": "http://secret.co",
-            "role": "Developer"
+            "name": "RB",
+            "email": "rbroke0624@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+
 }
